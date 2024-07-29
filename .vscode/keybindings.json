@@ -1,0 +1,7 @@
+[
+  {
+    "key": "ctrl+shift+r",
+    "command": "react-snippets.insertComponent",
+    "when": "editorTextFocus"
+  }
+]
