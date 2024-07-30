@@ -2,7 +2,7 @@
   "name": "pjw-snippets",
   "displayName": "pjw-snippets",
   "description": "react-snippets",
-  "publisher": "pjw-snippets",
+  "publisher": "pjw",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -10,31 +10,40 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "react-snippets.insertComponent",
-        "title": "Insert React Component"
+        "command": "react-snippets.insertArrowFunction",
+        "title": "Insert React Arrow Function Component"
+      },
+      {
+        "command": "react-snippets.insertFunction",
+        "title": "Insert React Function Component"
       }
     ],
     "snippets": [
       {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": ".vscode/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
+        "path": ".vscode/snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": ".vscode/snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": ".vscode/snippets.json"
       }
     ]
   },

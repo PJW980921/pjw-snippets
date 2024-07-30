@@ -1,0 +1,57 @@
+{
+  "reactFunction": {
+    "prefix": "rf",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export default function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t);",
+      "}",
+      ""
+    ],
+    "description": "Creates a React Function component"
+  },
+  "reactArrowFunction": {
+    "prefix": "ra",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t);",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Creates a React Arrow Function component"
+  },
+  "reactStatelessImplicitReturn": {
+    "prefix": "rsi",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export const ${1:${TM_FILENAME_BASE}} = (props) => (",
+      "\t\t\t$0",
+      "\t);",
+      ""
+    ],
+    "description": "Creates a React Stateless Implicit Return Function component"
+  },
+  "Import Module CSS": {
+    "prefix": "si",
+    "body": ["import styles from './${TM_FILENAME_BASE}.module.css';"],
+    "description": "Import PostCSS"
+  },
+  "ClassName": {
+    "prefix": "cn",
+    "body": ["className={styles.$1}"],
+    "description": "Adding className"
+  }
+}
