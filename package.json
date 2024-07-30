@@ -3,7 +3,7 @@
   "displayName": "pjw-snippets",
   "description": "react-snippets",
   "publisher": "pjw-snippets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -31,19 +31,19 @@
     "snippets": [
       {
         "language": "typescript",
-        "path": ".vscode/snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": ".vscode/snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "javascript",
-        "path": ".vscode/snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": ".vscode/snippets.json"
+        "path": "./snippets/snippets.json"
       }
     ]
   },
