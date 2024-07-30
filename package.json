@@ -2,7 +2,7 @@
   "name": "pjw-snippets",
   "displayName": "pjw-snippets",
   "description": "react-snippets",
-  "icon": "../../../code-it img/portFolio-logo.png",
+  "icon": "pjw-icon.png",
   "publisher": "pjw-snippets",
   "version": "0.0.5",
   "engines": {
@@ -45,15 +45,6 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/snippets.json"
-      }
-    ]
-  },
-  "viewsContainers": {
-    "activitybar": [
-      {
-        "id": "pjw-snippets",
-        "title": "pjw-snippets",
-        "icon": "../../../code-it img/portFolio-logo.png"
       }
     ]
   },
