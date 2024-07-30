@@ -2,7 +2,7 @@
   "name": "pjw-snippets",
   "displayName": "pjw-snippets",
   "description": "react-snippets",
-  "publisher": "pjw",
+  "publisher": "pjw-snippets",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
